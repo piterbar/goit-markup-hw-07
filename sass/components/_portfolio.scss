@@ -1,12 +1,13 @@
 .portfolio-section {
-    margin: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
   
   .portfolio-button__list {
     display: flex;
     justify-content: center;
   }
-  
+                                    
   .portfolio-button__item {
     &:not(:last-child) {
       margin-right: 8px;
@@ -76,7 +77,8 @@
   .portfolio-list {
     display: flex;
     flex-wrap: wrap;
-    margin: -15px;
+    justify-content: space-between;
+    padding-bottom: 60px;
   }
   
   .portfolio-item {

@@ -12,7 +12,7 @@
 
 .portfolio-section {
   padding-top: 30px;
-  padding-bottom: 30 px;
+  padding-bottom: 30px;
 }
 
 .portfolio-button__list {
@@ -82,7 +82,8 @@
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  margin: -15px;
+  justify-content: space-between;
+  padding-bottom: 60px;
 }
 
 .portfolio-item {
@@ -117,8 +118,6 @@
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 body {
